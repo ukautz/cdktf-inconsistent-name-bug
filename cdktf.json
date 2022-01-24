@@ -4,6 +4,11 @@
   "projectId": "8fc74451-e68a-48f6-acbe-c5ee8d03b4bf",
   "terraformProviders": [
     {
+      "name": "digitalocean",
+      "version": "~>2.16",
+      "source": "digitalocean/digitalocean"
+    },
+    {
       "name": "hcloud",
       "version": "~>1.32",
       "source": "hetznercloud/hcloud"
